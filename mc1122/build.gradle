@@ -131,7 +131,7 @@ jar {
 }
 
 shadowJar {
-    archiveClassifier.set("shadow")
+    archiveClassifier.set("")
     compileJava.options.encoding = "UTF-8"
     exclude "native-binaries/*"
 
